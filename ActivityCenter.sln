@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityCenter.Web", "ActivityCenter.Web\ActivityCenter.Web.csproj", "{56AC20EA-7E4B-416E-850D-B3B83598A1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wrong", "ActivityCenter.Data\wrong.csproj", "{026BF5E0-6CC8-4830-A92D-6B95B29B4BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivityCenter.Datas", "ActivityCenter.Datas\ActivityCenter.Datas.csproj", "{75D3C83B-E58D-4597-9B91-E78951DF2E9A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AC20EA-7E4B-416E-850D-B3B83598A1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AC20EA-7E4B-416E-850D-B3B83598A1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AC20EA-7E4B-416E-850D-B3B83598A1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AC20EA-7E4B-416E-850D-B3B83598A1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026BF5E0-6CC8-4830-A92D-6B95B29B4BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026BF5E0-6CC8-4830-A92D-6B95B29B4BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026BF5E0-6CC8-4830-A92D-6B95B29B4BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026BF5E0-6CC8-4830-A92D-6B95B29B4BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D3C83B-E58D-4597-9B91-E78951DF2E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D3C83B-E58D-4597-9B91-E78951DF2E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D3C83B-E58D-4597-9B91-E78951DF2E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D3C83B-E58D-4597-9B91-E78951DF2E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
