@@ -42,6 +42,24 @@ namespace ActivityCenter.Data
 				id = context.Users.FirstOrDefault(u => u.Email == email).Id;
 			}
 			return id;
-		}	
+		}
+
+		public void AddActivity(Activity activity)
+		{
+			using (var context = new ActivityCenterContext(_connectionString))
+			{
+				context.Activities.Add(activity);
+				context.SaveChanges();
+			}
+		}
+
+		public void AddCategory(Category category)
+		{
+			using (var context = new ActivityCenterContext(_connectionString))
+			{
+				context.Categories.Add(category);
+				context.SaveChanges();
+			}
+		}
 	}
 }
