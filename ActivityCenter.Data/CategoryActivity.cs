@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ActivityCenter.Data
 {
-	class CategoryActivity
+	public class CategoryActivity
 	{
+		public int ActivityId { get; set; }
+		public int CategoryId { get; set; }
+		public Activity Activity { get; set; }
+		public Category Category { get; set; }
 	}
 }
